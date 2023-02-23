@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.text {
+  font-weight: 400;
+  width: 50%;
+  color: #fff;
+  font-size: 19px;
+}
+.content img {
+  height: 400px;
+  width: 550px;
+}
+
+.pict {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.pict img{
+  border: none;
+}
+
+.pict small {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.edu {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.edu h2{
+  margin-top: 20px;
+
+}
+
+.tableDiv{
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.Schooling{
+  height: auto;
+  text-align: start;
+  font-size: 16px;
+}
+.Schooling p{
+  color: #FF671F;
+  margin-top: 10px;
+}
+
+
+.schoolname{
+  height: auto;
+  text-align: start;
+  font-size: 16px;
+}
+.schoolname p{
+  color: green;
+  margin-top: 10px;
+}
+
+.Summary {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.Summary ol li {
+  margin-top: 15px;
+}
+
+b {
+  color: green;
+}
+.Summary p {
+  margin-top: 20px;
+  width: 700px;
+}
+
+.image {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+.awards {
+  height: 400px;
+  width: 100%;
+  border: 1px solid;
+}
+
+.books {
+  margin-top: 50px;
+
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.allBook {
+  width: 70%;
+  display: flex;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.books h1 {
+  color: #fff;
+}
+
+.book {
+  margin-left: 30px;
+  /* border: 1px solid #fff; */
+  height: auto;
+  width: 140px;
+  color: #fff;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.book img {
+  border: 2px solid #fff;
+}
+.book img:hover {
+  box-shadow: 2px 2px 20px #fff;
+  border: 2px solid;
+}
+
+.cuotes {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+}
+
+.cuotePic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+  height: auto;
+  width: 100%;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.Pic,
+img {
+  height: 150px;
+  width: 250px;
+  border: 2px solid #fff;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.cuotePic img:hover {
+  box-shadow: 2px 2px 20px #fff;
+}
